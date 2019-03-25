@@ -19,6 +19,10 @@
   }
 }
 
+.post, hr {
+  width: 85%; 
+}
+
 .image-credit {
   // float: right;
   margin: 0 auto;
@@ -99,7 +103,7 @@ a.read-more {
 // Post content
 
 #post {
-  width: 85%;
+  width: 70%;
   padding-bottom: 50px;
   .post-header {
     margin: 0 auto 40px;
@@ -262,10 +266,13 @@ a.read-more {
 }
 
 @media screen and (max-width: 480px) {
-  body, html {
-    font-size: 15px;
+  body, html, :not(.nav-list), :not(.nav-item) {
+    font-size: 17px;
   }
-  // .author_job, .author_bio {
-  //   font-size: 18px;
-  // }
+  .nav-item {
+    font-size: 20px;
+  }
+  #post, .post {
+    width: 95%;
+  }
  }
