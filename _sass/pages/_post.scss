@@ -115,12 +115,12 @@ a.read-more {
   margin: 0.5em 0 1em;
 }
 #post h2 {
-  margin: 2em 0 0.8em;
+  margin: 1em 0 0.8em;
   padding-bottom: 0.7em;
   border-bottom: 1px solid #ddd;
 }
 #post h3 {
-  margin: 1.75em 0 1.2em;
+  margin: 1em 0 1.2em;
   position: relative;
 }
 
@@ -267,7 +267,7 @@ a.read-more {
 
 @media screen and (max-width: 480px) {
   body, html, :not(.nav-list), :not(.nav-item) {
-    font-size: 17px;
+    font-size: 18px;
   }
   .nav-item {
     font-size: 20px;
