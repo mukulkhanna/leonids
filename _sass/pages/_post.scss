@@ -99,6 +99,7 @@ a.read-more {
 // Post content
 
 #post {
+  width: 85%;
   padding-bottom: 50px;
   .post-header {
     margin: 0 auto 40px;
@@ -259,3 +260,12 @@ a.read-more {
     border-color: #5f99cf;
   }
 }
+
+@media screen and (max-width: 480px) {
+  body, html {
+    font-size: 15px;
+  }
+  // .author_job, .author_bio {
+  //   font-size: 18px;
+  // }
+ }
