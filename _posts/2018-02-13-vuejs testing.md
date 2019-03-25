@@ -9,10 +9,10 @@ image:
   feature: https://cdn-images-1.medium.com/max/800/1*PkFvOQVwXsa-Rsd004WyDQ.png
 ---
 Before we dive into the implementation, let’s get a few concepts cleared.
-## What is testing?
-Manually trying all possible inputs to a basic form validator can be cumbersome.
+## What is testing in web development?
+Manually trying all possible inputs in a basic form to check the validation implementation can be time consuming.
 
-It might not seem like a big deal for a small website. But for bigger and more complex web applications consisting of dozens of components along with their functions, routes, states, mutations and so on, it is not feasible or advisable to test the functioning of all these constituents.
+It might not be a big deal for a small website. But for bigger and more complex web applications consisting of dozens of components along with their functions, routes, states, mutations and so on, it is not feasible or advisable to test the functioning of all these constituents.
 
 Automating this part of the trial and error based assessments of the code we have written is known as **testing** or **automated testing**.
 

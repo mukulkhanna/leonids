@@ -276,7 +276,7 @@ a.read-more {
     width: 95%;
   }
 
-  .post-date, .post-cat{
+  .post-date, .post-cat, .read-time{
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 12px;
@@ -286,6 +286,15 @@ a.read-more {
     padding: 2px;
     border-radius: 5px;
     background-color: rgba(255, 192, 203, 0.301);
+  }
+
+  .btn {
+    background-color: transparent;
+    margin-bottom:15px;
+  }
+
+  .btn i {
+    color: $primary;
   }
 
  }
