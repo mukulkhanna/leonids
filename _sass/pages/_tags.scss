@@ -15,9 +15,10 @@ ul.tag-cloud {
 
 .tag-list {
   .tag-group {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     .tag-group-title {
-      color: $warning;
+      color: $primary;
+      border-radius: 10%;
       text-transform: capitalize;
     }
 
@@ -28,7 +29,9 @@ ul.tag-cloud {
         color: $text-color;
         &:hover,
         &:focus {
-          color: lighten($text-color, 24%);
+          color: lighten($text-color, 4%);
+          text-decoration: underline;
+          text-decoration-color: $main;
         }
       }
     }

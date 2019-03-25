@@ -14,6 +14,7 @@ code {
   color: #e96900;
   border-radius: 2px;
   white-space: nowrap;
+  font-size: 18px;
 }
 
 
@@ -105,7 +106,7 @@ pre code {
   .mh { color: #666666 } /* Literal.Number.Hex */
   .mi { color: #666666 } /* Literal.Number.Integer */
   .mo { color: #666666 } /* Literal.Number.Oct */
-  .sb { color: #BB4444 } /* Literal.String.Backtick */
+  .sb { color: #BB4444} /* Literal.String.Backtick */
   .sc { color: #BB4444 } /* Literal.String.Char */
   .sd { color: #BB4444; font-style: italic } /* Literal.String.Doc */
   .s2 { color: #BB4444 } /* Literal.String.Double */

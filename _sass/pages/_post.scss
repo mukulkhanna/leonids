@@ -20,12 +20,12 @@
 }
 
 .image-credit {
-  float: right;
+  // float: right;
+  margin: 0 auto;
   font-weight: bold;
-  font-style: italic;
-  color: $info;
+  color: grey;
   font-size: 13px;
-  padding-right: 20px;
+  // padding-right: 20px;
 }
 
 // Post Section
@@ -36,22 +36,25 @@ section.post {
 // Back home button
 
 .back-home a {
-  font-size: 13px;
+  // font-size: 13px;
   font-weight: bold;
-  color: $info;
+  background-color: $info;
+  color: white;
   border: 1px solid lighten($text-color, 45%);
-  border-radius: 0.4em;
+  // border-radius: 25%;
   padding: 0.5em 1em;
 }
 
 // Post title
 .post-title {
-
+  // color: #E91C63;
+  font-family: $font-family-monospace;
+  color: $main;
 }
 
 .post-title-link {
 	color: $primary;
-	font-size: 14px;
+	// font-size: 14px;
 	margin-left: 10px;
 	&:hover,
 	&:focus {
@@ -61,7 +64,10 @@ section.post {
 
 // Post meta
 .post-meta {
-  font-size: 13px;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+  font-size: 15px;
   font-weight: bold;
 	.post-date {
 		color: $secondary;
@@ -71,8 +77,13 @@ section.post {
 		color: $warning;
 	}
   .post-cat {
-		text-transform: uppercase;
-		color: $warning;
+    margin-right: 2px;
+		text-transform: none;
+    color: $warning;
+    background-color: rgba(255, 192, 203, 0.4);
+    // background-color: rgba(127, 255, 212, 0.431);
+    padding: 1px 3px 1px 3px;
+    border-radius: 10%;
 	}
   .read-time {
     color: $primary;
@@ -90,8 +101,9 @@ a.read-more {
 #post {
   padding-bottom: 50px;
   .post-header {
-    margin: 0 auto 50px;
+    margin: 0 auto 40px;
   }
+  font-size: 20px;
 }
 
 #post h1 {
@@ -112,6 +124,7 @@ a.read-more {
   min-height: 70vh;
   .page-header {
     margin: 0 auto 50px;
+    color: $main;
   }
 }
 
@@ -124,7 +137,7 @@ a.read-more {
   padding: 20px 30px;
   text-align: center;
   color: $warning;
-  font-size: 16px;
+  // font-size: 16px;
   line-height: 16px;
 }
 .post-nav-prev,
@@ -139,7 +152,7 @@ a.read-more {
   width: 100%;
   padding: 20px 30px;
   .post-nav-text {
-    font-size: 16px;
+    // font-size: 16px;
     line-height: 16px;
     font-weight: bold;
   }

@@ -1,4 +1,5 @@
 .archive {
+
   #timeline {
     position: relative;
     &:before {
@@ -23,7 +24,7 @@
     .archive-year {
       margin-left: 1em;
       &:before {
-        content: " ";
+        content: "  ";
         position: absolute;
         left: 0;
         top: 50%;
