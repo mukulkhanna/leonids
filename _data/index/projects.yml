@@ -2,3 +2,11 @@
   descr: "Open Source Simulator for Unmanned Underwater Vehicles using ROS and Unity3D"
   image: dp2.JPG
   github: https://github.com/srmauvsoftware/URSim
+
+- name: Deep Learning for HDR Imaging (ongoing)
+  descr: "This project involves generation of HDR content such as images, GIFs, and videos from consumer cameras using deep learning frameworks."
+  image: 
+
+- name: Airline Helpdesk Chatbot
+  descr: "This project involves creating an AI conversationalist chatbot that makes it easy for customers to get flight details, book tickets and manage their bookings." 
+
