@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: ROS, Python, Unity, Nodejs, Vuejs, HTML/CSS/JS
-percentage: 80, 80, 75, 95, 85, 95
+aspects: ROS,Python,Unity,Nodejs,Vuejs,HTML/CSS/JS
+percentage: 80,80,75,95,85,95
